@@ -4,8 +4,7 @@ function titulo(nroEjercicio,nombreEjercicio){
     document.write("<h2>EJERCICIO "+ nroEjercicio+"<h2>" );     
 }
 
-//Ejercicio 1 Realizar una funcion que reciba un numero y escriba una piramide desde 1 hasta ese numero;
-titulo(1,"PIRAMIDE");
+//EJERCICIO 1
 
     function piramide(nro){
         for(i=1;i<=nro;i++){
@@ -21,7 +20,7 @@ titulo(1,"PIRAMIDE");
 
     
 
-/*Ejercicio 2 Escribir una funcion que reciba 2 array y devuelva un array con todos los elementos que coinciden entre ellos*/
+//EJERCICIO2
 
 titulo(2,"ARRAYS")
 
@@ -68,29 +67,7 @@ titulo(2,"ARRAYS")
     document.write("Segundo Array ingresado --> "+array2+"<br>");
     document.write("Array con los valores iguales es -->  "+nuevo);
 
-/*3)
-3.1) Dado el siguiente objeto
-let carrito = {
-    montoTotal: 10,
-    productos: ["Leche"]
-}
-Crear las clases necesarias para generar carritos respetando la estructura del objeto dado.*/
-/*3.2) Agregar un metodo a la clase que agregue un producto al carrito y actualice el montoTotal
-agregarProducto(nombre, precio, unidades) {
-    // Completar aca...
-}
-
-Ej:
-agregarProducto("Azucar", 5, 2);
-
-//Resultado esperado
-carrito = {
-    montoTotal: 20,
-    productos: ["Leche", "Azucar"]
-}
-
-3.3)Agregar al ejercicio anterior una validación para no permitir duplicados e imprimir un mensaje si el item ya existe “ya existe xxx con yyy unidades”
-*/
+//EJERCICIO 3
 titulo(3,"CLASES") ;
     class Carrito {
         montoTotal;
